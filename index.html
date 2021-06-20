@@ -1,25 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-</head>
-<body>
-
-    <div class="container">
-
-        <div class="row row-cols-1 row-cols-md-3 g-4" id="contenedorPadre">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Naruto - WIKI</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- inicio de cabecera -->
+    <header id="header">
+      <div class="wrap">
+        <div id="logo">
+          <span class="konoha">S</span>
+          <h3>NARUTO WIKI</h3>
         </div>
+      </div>
 
+      <nav id="menu">
+        <ul>
+          <li><a href="#">INICIO</a></li>
+          <li><a href="#">HISTORIA</a></li>
+          <li><a href="ninjas.html">PERSONAJES</a></li>
+          <li><a href="#">VIDEOS</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- fin de la cabecera -->
 
-    </div>
-    
+    <!-- Inicio banner -->
+    <section class="wrap wrap-content">
+        <section id="info">
+            <div id=banner>
+                <h1>¡BIENVENIDOS SHINOBIS!</h1>
+            </div>
+     <!-- fin banner -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+            <h2 class="text-center text-white mt-5">LAS 5 GRANDES ALDEAS</h2>
+            <hr>
+            <!-- Inicio tarjetas -->
+            <div id="cards">
+                <div class="card">
+                    <p class="icon"><img src="img/logo2.png" alt="logo"></p>
+                    <h2 class="category">KONOHAGAKURE</h2>
+                    <p class="description">
+                        el País del Fuego
+                    </p>
+                </div>
+            </div>
+            <div id="cards">
+                <div class="card">
+                    <p class="icon"><img src="img/logo4.png" alt="logo"></p>
+                    <h2 class="category">KIRIGAKURE</h2>
+                    <p class="description">
+                        el País del Agua
+                    </p>
+                </div>
+            </div>
+            <div id="cards">
+                <div class="card">
+                    <p class="icon"><img src="img/logo1.png" alt="logo"></p>
+                    <h2 class="category">IWAGAKURE</h2>
+                    <p class="description">
+                        El Pais de la Tierra
+                    </p>
+                </div>
+            </div>
+            <div id="cards">
+                <div class="card">
+                    <p class="icon"><img src="img/logo3.png" alt="logo"></p>
+                    <h2 class="category">KOMOGAKURE</h2>
+                    <p class="description">
+                        el País del Rayo
+                    </p>
+                </div>
+            </div>
+            <div id="cards">
+                <div class="card">
+                    <p class="icon"><img src="img/logo5.png" alt="logo"></p>
+                    <h2 class="category">SUNAGAKURE</h2>
+                    <p class="description">
+                        el País del Viento
+                    </p>
+                </div>
+            </div>
+            <!-- Fin tarjetas -->
+
+            <!-- Inicio barra lateral -->
+            <aside id="lateral">
+                <h3>BUSCAR</h3>
+                <div id="buscar">
+                    <form >
+                        <input type="text"/>
+                        <input type="button" value="L" class="icon">
+                    </form>
+
+                </div>
+
+                <H3>LOGIN</H3>
+                <div id="login" class="aside-box">
+                    <label id="user" class="icon">U</label>
+                    <input type="email"/>
+
+                    <label id="password" class="icon">w</label>
+                    <input type="password"/>
+
+                    <input type="submit" value="Entrar">
+                    <input type="reset" value="Limpiar">
+
+                    <a href="#">Registrate aqui</a>
+                    <a href="#">¿Has olvidado la contraseña?</a>
+                </div>
+                <h3>REDES SOCIALES</h3>
+                <div id="social" class="aside-box">
+                    <div class="twitter">
+                        <a href="#">t</a>
+                    </div>
+                    <div class="facebook">
+                        <a href="#">f</a>
+                    </div>
+                    <div class="gmail">
+                        <a href="#">g</a>
+                    </div>
+                    <div class="youtube">
+                        <a href="#">y</a>
+                    </div>
+                </div>
+
+                <h3>PATROCINADORES</h3>
+                <div id="sponsors">
+
+                </div>
+            </aside>
+
+            <!-- fin barra lateral -->
+
+        </section>
+
+    </section>
+  
+
+    <main></main>
+
+    <footer></footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
     <script src="conexion.js"></script>
-</body>
+  </body>
 </html>
