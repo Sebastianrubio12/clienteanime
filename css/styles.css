@@ -609,3 +609,30 @@ footer{
     text-decoration: none;
 }
 
+#banner1{
+
+    background-image: url(../img/img4.jpg);
+    background-size: cover;
+    padding: 20% 2%;
+    position:relative;
+    z-index:1;
+    background-attachment: fixed;
+}
+
+#banner1::after{
+    content: '';
+    position:absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    left:0;
+    top:0;
+    opacity:0.55;
+    z-index:-1; 
+}
+
+#banner1 h1{
+    color:white;
+    position:relative;
+    font-size:4rem;
+}
